@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button } from './Button';
+import  Button  from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -38,3 +38,9 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+export const Red = Template.bind({});
+Red.args = {
+  label: "Red",
+  backgroundColor: "#eebaba"
+}
